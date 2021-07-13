@@ -1,0 +1,468 @@
+html {
+  width: 17%;
+  height: 100%;
+}
+
+* {
+  margin: auto;
+  color: #000;
+  font-size: 11px;
+  line-height: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.top_logo {
+  text-align: center;
+  position: relative;
+}
+
+.top_logo img {
+  height: 40px;
+}
+
+.print_button {
+  display: block;
+  position: absolute;
+  right: 4px;
+}
+
+.print_button .print_image {
+  width: 85%;
+}
+
+.toptitle {
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 10px;
+  line-height: 13px;
+  margin-top: 1px;
+  font-weight: bold;
+}
+
+.general_info1 {
+  padding: 1px 0px;
+  margin: 15px 0px 0 0px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #000;
+  overflow: auto;
+}
+
+.phone_info {
+  display: inline-block;
+}
+
+.phone_info img {
+  height: 57px;
+}
+
+.text_general {
+  display: inline-block;
+  margin: 4px 0 0;
+  padding: 0;
+  width: 194px;
+  vertical-align: top;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ticket_flags {
+  margin-top: 18px;
+}
+
+.ticket_flags span {
+  font-weight: 400;
+}
+
+.scanner_info {
+  display: inline-block;
+}
+
+.scanner_info img {
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.general_info2 {
+  padding: 5px 10px;
+  margin: 15px 0px 0 0px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #000;
+  overflow: auto;
+  line-height: inherit;
+  overflow: hidden;
+}
+
+.left_info {
+  float: left;
+  text-align: left;
+  font-weight: 800;
+}
+
+.right_info {
+  float: right;
+  text-align: right;
+  font-weight: 800;
+}
+
+.date,
+.ticket,
+.userType,
+.userName,
+.printDate {
+  font-size: 12px;
+}
+
+.date_date,
+.ticket_ticket,
+.userType_userType,
+.userType_UserType,
+.printDate_printDate {
+  font-size: 12px;
+}
+
+.general_info3 {
+  padding: 3px 0px;
+  margin: 15px 0px 0 0px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  overflow: auto;
+}
+
+/*  ----------------------- 21 +   ------------------------ */
+.adult_info {
+  display: inline-block;
+}
+
+.adult_info img {
+  height: 62px;
+  float: left;
+}
+
+.text_adult {
+  display: inline-block;
+  margin: 6px 26px 0;
+  padding: 0;
+  width: 199px;
+  vertical-align: top;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text_adult h1 {
+  border-bottom: 1px solid black;
+}
+
+.text_adult h2 {
+  margin-top: 2px;
+  font-size: 10px;
+}
+
+/*  ----------------------LEAGUE - NATION / TOURNAMENT----------------- */
+.typeof_tournament {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
+  border-bottom: 1px solid black;
+  line-height: 25px;
+}
+
+/* ----------------- MATCHES AND EVENTS DETAILS ---------- */
+.row_event {
+  display: block;
+  line-height: 15px;
+  border-top: 1px solid black;
+}
+
+/*------------------------   -MATCH INFOS     -------------------*/
+.match_codes {
+  display: none;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.match_name {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+/*--------------------   SPORT & DATA DETAILS  ------------------------------*/
+.row_eventdetails span {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.left_details {
+  width: 33.333%;
+  display: inline-block;
+}
+
+.right_details {
+  float: right;
+  text-align: right;
+}
+
+/* --------------- MARKET AND ODDS DETAILS -----------------------------------*/
+.typemarketevent {
+  display: block;
+  line-height: 15px;
+  border-bottom: 1px solid black;
+}
+
+.left_typemarket {
+  display: inline-block;
+  width: 66%;
+  font-weight: 800;
+}
+
+.market_played {
+  font-weight: 800;
+}
+
+.right_odds {
+  float: right;
+  text-align: right;
+  font-weight: 800;
+}
+
+/* --------------   EVENTS INFOSSSS -------------------------*/
+.info_events {
+  padding: 7px 0px;
+  margin: 7px 0px 0 0px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #000;
+  overflow: auto;
+}
+
+.eventssss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left_infos,
+.left_infos span {
+  font-size: 12px;
+  font-weight: 800;
+  width: 50%;
+}
+
+.right_infos,
+.right_infos span {
+  font-size: 12px;
+  font-weight: 800;
+  width: 50%;
+}
+
+/* --------------     GENERAL INFO 4 / WINNING AND AMOUNT  -----------------*/
+.general_info4 {
+  padding: 12px 10px;
+  margin: 5px 0px 0 0px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 3px solid #000;
+  overflow: auto;
+  line-height: inherit;
+  overflow: hidden;
+}
+
+.left_infowins {
+  float: left;
+  text-align: left;
+  font-weight: 800;
+}
+
+.right_infowins {
+  float: right;
+  text-align: right;
+  font-weight: 800;
+}
+
+.winningamount span,
+.winningamount {
+  font-size: 20px;
+  margin-left: 4px;
+}
+
+.winning,
+.winningamount {
+  margin-top: 8px;
+}
+
+.prob_taxes span,
+.prob_win span,
+.prob_bonus span,
+.bet_amount span {
+  margin-left: 3px;
+  font-weight: 900;
+}
+
+/*  ----------- BAR CODE IMAGE ----------------*/
+.barcode img {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.bottominfo {
+  text-align: center;
+}
+
+.bottominfo h1 {
+  margin-top: 7px;
+  font-size: 12px;
+  font-weight: 900;
+  width: 93%;
+}
+
+.bottominfo h2 {
+  margin-top: 7px;
+}
+
+.bottominfo h3 {
+  width: 93%;
+}
+
+.bottominfo span {
+  margin-left: 4px;
+  font-weight: 500;
+}
+
+/* ------- SYSTEM BUILD ------------------*/
+.info_system {
+  padding: 7px 0px;
+  margin: 7px 0px 0 0px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #000;
+  overflow: auto;
+}
+
+.title_system {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left_titlesystem,
+.left_titlesystem span {
+  font-size: 12px;
+  font-weight: 800;
+  width: 50%;
+}
+
+.left_titlesystem {
+  text-align: left;
+  margin-left: 4%;
+}
+
+.right_titlesystem {
+  text-align: right;
+  margin-right: 4%;
+}
+
+.right_titlesystem,
+.right_titlesystem span {
+  font-size: 12px;
+  font-weight: 800;
+  width: 50%;
+}
+
+.header_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  border-bottom: 1px solid;
+  color: black;
+  width: 90%;
+  font-weight: 900;
+}
+
+.type_col,
+.winn_col {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+}
+
+.no_col,
+.amount_col {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+}
+
+.row_system {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin-top: 1px;
+  font-weight: 900;
+}
+
+/* AMOUNT AND WINNING IN SYSTEM */
+.general_info5 {
+  padding: 9px 11px;
+  margin: 6px 0px 0 0px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 3px solid #000;
+  overflow: auto;
+}
+
+.prob_maxwin span,
+.prob_minwin span {
+  margin-left: 3px;
+  font-weight: 900;
+}
+
+/* CANNOT PRINT*/
+.cannotprint h1 {
+  font-weight: 800;
+  opacity: 0.6;
+  position: absolute;
+  -webkit-transform: rotate(38deg);
+  transform: rotate(38deg);
+  top: 32%;
+  display: block;
+  white-space: nowrap;
+  font-size: 64px;
+  text-align: center;
+}
+
+.cannotprint h2 {
+  font-weight: 800;
+  opacity: 0.6;
+  position: absolute;
+  -webkit-transform: rotate(38deg);
+  transform: rotate(38deg);
+  top: 60%;
+  display: block;
+  white-space: nowrap;
+  font-size: 64px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
